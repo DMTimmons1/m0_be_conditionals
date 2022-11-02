@@ -105,15 +105,17 @@ age = 1
 
 # YOU DO:
 # Determine if the dog loves to play and loves treats
-
+puts loves_to_play && loves_treats
 
 # Determine if the dog loves to play and loves the dog park
-
+puts loves_to_play && loves_dog_park
 
 # Determine if the dog loves to play or loves the dog park
-
+puts loves_to_play || loves_dog_park
 
 # Determine if the dog loves to play and is a puppy
+puts loves_to_play && age <= 1
 
 # What did your final line of code evaluate to? Why do you think that is? Explain.
-# ANSWER:
+# ANSWER: the final line of code evaluates to true. This is becasue the boolean assigned to the dog loving to play is true and the integer assigned to the dog's age is less than or greater to 1. 
+# this prints true becasuse the values assigned to the variables satisfy the parameters given.
