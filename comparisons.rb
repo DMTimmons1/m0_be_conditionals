@@ -60,21 +60,30 @@ puts "Is number_teachers less than number_students?", number_students <= 21
 # Make sure YOU can explain it that way!
 
 puts 4 < 9
-#YOU DO: Explain.
+# this code is asking if 4 is less than 9.
+# this will print: true because 4 is less than 9.
 
 books = 3
 puts 4 < books
-# YOU DO: Explain.
+# the first line of code defines an integer for the variable 'books' as 3. 
+# the next line of code is asking if 4 is smaller than the integer assigned to 'books'.
+# this will print: false because 4 is less than 3.
 
 friends = 6
 siblings = 2
 puts friends > siblings
-# YOU DO: Explain.
+# the first line of code defines an integer for the variable 'friends' as 6.
+# the next line of code defines an ineger for the variable 'siblings' as 2.
+# the third line of code is asking if the integer assinged to 'friends' is greater than the integer assigned to 'siblings'.
+# this will print: true because 6 is greater than 2.
 
 attendees = 9
 meals = 8
 puts attendees != meals
-# YOU DO: Explain.
+# the first line of code defines an integer for the variable 'attendees' as 9.
+# the next line of code defines an ineger for the variable 'meals' as 8.
+# the third line of code is asking if the integer assigned to 'atendees' is not equal to the integer assgined to 'meals'
+# this will print: true becasue 9 is not equal to 8.
 
 #-------------------
 # PART 3: Logical Operators
